@@ -8,7 +8,7 @@ For more information on the sbt-dotty plugin, see the
 [scala3-example-project](https://github.com/scala/scala3-example-project/blob/main/README.md).
 
 ### Key parts
-- Lexer simply maeks tokens to remove whitespace and parse basic integers
+- Lexer simply makes tokens to remove whitespace and parse basic integers
 - Parser uses Shunting Yard algorithm to turn the tokens into Reverse Polish Notation (RPN)
 - Evaluator evaluates the RPN tokens to a final value
 
